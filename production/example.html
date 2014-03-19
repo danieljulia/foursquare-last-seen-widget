@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Widget Example</title>
+
+    <link rel="stylesheet" href="css/foursquare-last-seen.min.css" />
+
+    <style type="text/css">
+        #map {
+            height: 300px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="src/foursquare-last-seen.min.js"></script>
+    <script type="text/javascript">
+        last_seen.id = 'map';
+        last_seen.token = 'OJRWZJ0QRUUJQR3ON44Q0IKFRXVFP5I5AULI003HOCHMLOI0';
+        last_seen.render();
+    </script>
+</body>
+</html>
